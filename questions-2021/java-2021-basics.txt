@@ -1,0 +1,11 @@
+What are 4 OOPS principal in java?
+
+Encapsulation - encapsulation means data hiding, 
+
+Abstraction - Abstraction means hiding the implementation, 
+
+Inheritance - Inheritance is a process where child class acquires the properties of super class, and 
+
+Polymorphism -
+Compile time polymorphism - can be achieved by using Method overloading &
+Runtime polymorphism - Runtime polymorphism can be achieved by using Method overriding
