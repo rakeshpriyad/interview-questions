@@ -50,27 +50,27 @@ Answer:
 		Decentralized Governance – The focus is on using the right tool for the right job. That means there is no standardized pattern or any technology pattern. Developers have the freedom to choose the best useful tools to solve their problems
 		Responsibility – Microservices do not focus on applications as projects. Instead, they treat applications as products for which they are responsible
 16. What is the difference between Monolithic, SOA and Microservices Architecture?
- 	Microservices	SOA
+ 	        |Aspect                  |Microservices                                                                 |	SOA
 		----------------------------------------------------------------------------------------------------------------------------
-		Architecture		 |	Designed to host services which can function independently	|	Designed to share resources across services
+		Architecture		 |	Designed to host services which can function independently	        |	Designed to share resources across services
 		----------------------------------------------------------------------------------------------------------------------------
 		Component sharing	 |	Typically does not involve component sharing 				|	Frequently involves component sharing
 		----------------------------------------------------------------------------------------------------------------------------
-		Granularity			 |	Fine-grained services										|	Larger, more modular services
+		Granularity	         |	Fine-grained services							|	Larger, more modular services
 		----------------------------------------------------------------------------------------------------------------------------
 		Data storage		 |	Each service can have an independent data storage			|	Involves sharing data storage between services
 		----------------------------------------------------------------------------------------------------------------------------
-		Governance			 |	Requires collaboration between teams						|	Common governance protocols across teams 
+		Governance		 |	Requires collaboration between teams					|	Common governance protocols across teams 
 		----------------------------------------------------------------------------------------------------------------------------
 		Size and scope		 |	Better for smaller and web-based applications				|	Better for large scale integrations
 		----------------------------------------------------------------------------------------------------------------------------
-		Communication		 |	Communicates through an API layer							|	Communicates through an ESB
+		Communication		 |	Communicates through an API layer					|	Communicates through an ESB
 		----------------------------------------------------------------------------------------------------------------------------
-		Coupling and cohesion|	Relies on bounded context for coupling						|	Relies on sharing resources
+		Coupling and cohesion    |	Relies on bounded context for coupling					|	Relies on sharing resources
 		----------------------------------------------------------------------------------------------------------------------------
-		Remote services		 |	Uses REST and JMS											|	Uses protocols like SOAP and AMQP
+		Remote services		 |	Uses REST and JMS							|	Uses protocols like SOAP and AMQP
 		----------------------------------------------------------------------------------------------------------------------------
-		Deployment			 |	Quick and easy deployment									|	Less flexibility in deployment
+		Deployment		 |	Quick and easy deployment						|	Less flexibility in deployment
 		----------------------------------------------------------------------------------------------------------------------------
 
 17. What are main differences between Microservices and Monolithic Architecture?
