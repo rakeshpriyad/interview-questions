@@ -2,20 +2,34 @@ Java8::
 1. What New Features Were Added in Java 8?
 		Java 8 ships with several new features but the most significant are the following:
 
-		1.Lambda Expressions - a new language feature allowing treating actions as objects
-		2. Method References - enable defining Lambda Expressions by referring to methods directly using their names
-		3. Optional - special wrapper class used for expressing optionality
-		4. Functional Interface – an interface with maximum one abstract method, implementation can be provided using a Lambda Expression
-		5. Default methods - give us the ability to add full implementations in interfaces besides abstract methods
-		6. Stream API - a special iterator class that allows processing collections of objects in a functional manner
-		7. Date API - an improved, immutable JodaTime-inspired Date API
-		8. Completeable Future
-		9. Improvement in ConcurrentHashMap
+		1.  Lambda Expressions - a new language feature allowing treating actions as objects
+		2.  Method References - enable defining Lambda Expressions by referring to methods directly using their names
+		3.  Optional - special wrapper class used for expressing optionality
+		4.  Functional Interface – an interface with maximum one abstract method, implementation can be provided using a Lambda Expression
+		5.  Default methods - give us the ability to add full implementations in interfaces besides abstract methods
+		6.  Stream API - a special iterator class that allows processing collections of objects in a functional manner
+		7.  Date API - an improved, immutable JodaTime-inspired Date API
+		8.  Completeable Future
+		9.  Improvement in ConcurrentHashMap
 		10. Function, ByFunction, Supplier, Consumer, Predicates
 		11. Spliterator 
 		12. StampdedLock
 		13. MetaSpace
-		14. ConcurrentHa
+		
+		
+		
+		
+2. Iterator Vs Spliterator In Java 8 :
+Iterator	                                             Spliterator
+It performs only iteration.	                           |   It performs splitting as well as iteration.
+Iterates elements one by one.	                       |   Iterates elements one by one or in bulk.
+Most suitable for serial processing.	               |   Most suitable for parallel processing.
+Iterates only collection types.	                       |   Iterates collections, arrays and streams.
+Size is unknown.	                                   |   You can get exact size or estimate of the size.
+Introduced in JDK 1.2.	                               |   Introduced in JDK 1.8.
+You can’t extract properties of the iterating elements.|	 You can extract some properties of the iterating elements.
+External iteration.                                    | Internal iteration.
+		
 
 2. What is the difference between PermGenSpace and MetaSpace?
 
